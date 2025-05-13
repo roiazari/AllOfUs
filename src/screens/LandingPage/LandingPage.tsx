@@ -82,7 +82,7 @@ export const LandingPage = (): JSX.Element => {
             <img
               className="absolute w-24 md:w-32 h-10 md:h-14 top-[20px] md:top-[66px] right-[20px] md:right-[auto] lg:left-[1118px] object-cover"
               alt="Logo"
-              src="/logo-1.png"
+              src="./logo-1.png"
             />
           </div>
         </section>
@@ -94,7 +94,7 @@ export const LandingPage = (): JSX.Element => {
               <img
                 className="w-[80px] md:w-[103px] h-[80px] md:h-[103px] mx-auto"
                 alt="Clip path group"
-                src="/clip-path-group.png"
+                src="./clip-path-group.png"
               />
             </div>
 
@@ -198,12 +198,12 @@ export const LandingPage = (): JSX.Element => {
               <img
                 className="w-[120px] md:w-[150px] h-[131px] md:h-[164px] object-cover mb-4"
                 alt="Logo"
-                src="/-----1.png"
+                src="./-----1.png"
               />
               <div className="text-white text-lg font-medium mb-4">גם ברשתות החברתיות</div>
               <div className="flex gap-6 justify-center md:justify-start">
-                <img className="w-[35px] h-[35px]" src="/instagram--1--1.png" alt="Instagram" />
-                <img className="w-[18px] h-[35px]" src="/xmlid-834-.png" alt="Facebook" />
+                <img className="w-[35px] h-[35px]" src="./instagram--1--1.png" alt="Instagram" />
+                <img className="w-[18px] h-[35px]" src="./xmlid-834-.png" alt="Facebook" />
                 <img className="w-[35px] h-[25px] mt-[5px]" src="/xmlid-822-.png" alt="YouTube" />
               </div>
             </div>
