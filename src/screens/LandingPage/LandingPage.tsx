@@ -10,7 +10,9 @@ export const LandingPage = (): JSX.Element => {
       title: "הענקת תקווה ואופטימיות",
       description:
         "קבלת עזרה ומתן עזרה יכול להעניק תחושת תקווה ואופטימיות, ולספק תמריץ להתמודדות עם אתגרים ומצוקות.",
-      imageSrc: "/group-1.png",
+      imageSrc: "./group-1.png",
+    
+
       imageAlt: "Group",
       position: "top",
     },
@@ -19,7 +21,7 @@ export const LandingPage = (): JSX.Element => {
       title: "חיזוק תחושת התמיכה והחיבור",
       description:
         "הקשר עם מתנדבים יכול לחזק את תחושת התמיכה והחיבור של המקבלים לקהילה ולגרום להם להרגיש פחות לבד.",
-      imageSrc: "/group-2.png",
+      imageSrc: "./group-2.png",
       imageAlt: "Group",
       position: "top",
     },
@@ -28,7 +30,7 @@ export const LandingPage = (): JSX.Element => {
       title: "תחושת קהילתיות ושייכות",
       description:
         "השתתפות בפעילויות התנדבותיות מחזקת את תחושת השייכות לקהילה ומעצימה את הקשרים החברתיים והתרבותיים.",
-      imageSrc: "/group.png",
+      imageSrc: "./group.png",
       imageAlt: "Group",
       position: "bottom",
     },
@@ -37,7 +39,7 @@ export const LandingPage = (): JSX.Element => {
       title: "הזדמנות ליצור קשרים חברתיים",
       description:
         "התנדבות מציעה הזדמנות להכיר אנשים חדשים וליצור קשרים חברתיים עם אנשים שחולקים ערכים דומים.",
-      imageSrc: "/together-1.png",
+      imageSrc: "./together-1.png",
       imageAlt: "Together",
       position: "bottom",
     },
