@@ -11,7 +11,7 @@ export const LandingPage = (): JSX.Element => {
       description:
         "קבלת עזרה ומתן עזרה יכול להעניק תחושת תקווה ואופטימיות, ולספק תמריץ להתמודדות עם אתגרים ומצוקות.",
       imageSrc: "./group-1.png",
-    
+
 
       imageAlt: "Group",
       position: "top",
@@ -60,11 +60,13 @@ export const LandingPage = (): JSX.Element => {
               </span>
             </Button>
 
-            <Button className="absolute top-[380px] md:top-[480px] left-[20px] md:left-[auto] md:right-[20px] lg:left-[1059px] bg-[#ffa245] rounded-[42px] px-[27px] py-[7px]">
+            <Button className="absolute top-[386px] md:top-[480px] left-[20px] md:left-[auto] md:right-[20px] lg:left-[1059px] bg-[#ffa245] rounded-[42px] px-[27px] py-[7px] mt-4">
               <span className="relative w-fit mt-[-1.00px] [font-family:'Heebo',Helvetica] font-medium text-black text-base md:text-lg tracking-[0] leading-[normal] [direction:rtl]">
                 הצטרפו עוד היום!
               </span>
             </Button>
+
+
 
             <div className="absolute top-[180px] md:top-[257px] right-[20px] md:right-[auto] md:left-[50%] md:transform md:-translate-x-1/2 lg:left-[698px] lg:transform-none [font-family:'Heebo',Helvetica] font-extrabold text-transparent text-4xl md:text-6xl lg:text-7xl leading-[1.2] md:leading-[72px] tracking-[0] [direction:rtl]">
               <span className="text-[#ffa245] leading-[1.2] md:leading-[94.8px]">כולנו</span>
@@ -187,9 +189,10 @@ export const LandingPage = (): JSX.Element => {
                   className="w-full bg-[#fefae0] rounded-[32px] px-4 h-10 mb-4 text-right"
                   placeholder="+972-521478965"
                 />
-                <Button className="bg-[#ffa245] text-black rounded-[42px] px-[27px] py-[7px] text-lg font-medium">
+                <Button className="bg-[#ffa245] text-black rounded-[42px] px-[27px] py-[7px] text-lg font-medium mb-4">
                   בואו נדבר!
                 </Button>
+
               </div>
             </div>
 
@@ -204,7 +207,7 @@ export const LandingPage = (): JSX.Element => {
               <div className="flex gap-6 justify-center md:justify-start">
                 <img className="w-[35px] h-[35px]" src="./instagram--1--1.png" alt="Instagram" />
                 <img className="w-[18px] h-[35px]" src="./xmlid-834-.png" alt="Facebook" />
-                <img className="w-[35px] h-[25px] mt-[5px]" src="/xmlid-822-.png" alt="YouTube" />
+                <img className="w-[35px] h-[25px] mt-[5px]" src="./xmlid-822-.png" alt="YouTube" />
               </div>
             </div>
 
